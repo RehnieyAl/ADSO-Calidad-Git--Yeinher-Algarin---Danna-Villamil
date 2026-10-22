@@ -1,3 +1,6 @@
-
-def sumar(num1, num2):
-    return num1 + num2
+# suma.py
+def sumar(a, b):
+    try:
+        return float(a) + float(b)
+    except ValueError:
+        return "Error: Ingrese numeros validos"
