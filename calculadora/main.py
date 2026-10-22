@@ -2,6 +2,7 @@ import os
 from src.suma import sumar
 from src.dividir import dividir
 from src.restar import restar
+from src.multiplicar import multiplicar
 
 while True:
 
@@ -11,6 +12,7 @@ while True:
     print("Seleccione una operación:")
     print("1. Sumar")
     print("2. Restar")
+    print("3. Multiplicar")
     print("4. Dividir")
     print("5. Salir")
 
@@ -27,6 +29,12 @@ while True:
         num2 = float(input("Ingrese el segundo número: "))
         resultado = restar(num1, num2)
         print(f"El resultado de la resta es: {resultado}")
+
+    elif opcion == '3':
+        num1 = float(input("Ingrese el primer número: "))
+        num2 = float(input("Ingrese el segundo número: "))
+        resultado = multiplicar(num1, num2)
+        print(f"El resultado de la multiplicación es: {resultado}")
 
     elif opcion == '4':
         num1 = float(input("Ingrese el primer número: "))
