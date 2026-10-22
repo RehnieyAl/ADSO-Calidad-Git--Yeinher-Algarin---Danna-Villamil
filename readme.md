@@ -1,0 +1,1 @@
+"Módulo suma: Desarrollado por [Tu Nombre]. Permite sumar dos números con validación de errores."
