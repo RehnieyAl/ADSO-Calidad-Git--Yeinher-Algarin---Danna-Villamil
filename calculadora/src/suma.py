@@ -1,3 +1,4 @@
 
-def sumar(num1, num2):
-    return num1 + num2
+# suma.py
+def sumar(a, b):
+    return a + b
